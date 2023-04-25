@@ -20,9 +20,8 @@ Maintain a dictionary for the users who own a book. Dictionary should take book 
 
  
 
-class Library:
-
-    def __init__(self, list, name):
+    class Library:
+        def __init__(self, list, name):
         self.bookslist = list
         self.name = name
         self.lendDict = {}
@@ -46,8 +45,9 @@ class Library:
     def returnBook(self, book):
         self.lendDict.pop(book)
 
+    
 
-if __name__ == '__main__':
+    if __name__ == '__main__':
     harry = Library(['python', 'Rich dadd and poor dad',
                     'Harry potter', 'c++', 'pandas'], "IGNOU")
     while (True):
@@ -92,6 +92,4 @@ if __name__ == '__main__':
 
             if user_choice2 == "c":
                 continue
-   
-        
 
