@@ -18,7 +18,9 @@ Optional:-
 
 Maintain a dictionary for the users who own a book. Dictionary should take book name as a key and name of the person as a value. Whenever you lend a book to a user, you should maintain a dictionary.
 
- class Library:
+ 
+
+class Library:
 
     def __init__(self, list, name):
         self.bookslist = list
@@ -90,4 +92,6 @@ if __name__ == '__main__':
 
             if user_choice2 == "c":
                 continue
+   
+        
 
